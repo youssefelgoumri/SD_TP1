@@ -16,7 +16,7 @@ def send_message(sock, msg):
 def main():
     # Define server host and port
     host = 'localhost'
-    port = 4444
+    port = 4321
 
     # Create a TCP/IP socket
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

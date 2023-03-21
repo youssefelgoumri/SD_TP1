@@ -15,7 +15,7 @@ public class SingleThreadServer {
         Selector selector = Selector.open();
         ServerSocketChannel serverSocketChannel = ServerSocketChannel.open();
         serverSocketChannel.configureBlocking(false);
-        serverSocketChannel.bind(new InetSocketAddress("0.0.0.0", 4444));
+        serverSocketChannel.bind(new InetSocketAddress("0.0.0.0", 4321));
         serverSocketChannel.register(selector, SelectionKey.OP_ACCEPT);
 
         while (true){
