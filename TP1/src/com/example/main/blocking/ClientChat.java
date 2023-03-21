@@ -42,7 +42,7 @@ public class ClientChat extends Application{
         TextField text1     = new TextField("localhost");
 
         Label     labebPort = new Label("Port : ");
-        TextField text2     = new TextField("4444");
+        TextField text2     = new TextField("4321");
 
         Button    buttonConnecter     = new Button("Connexion");
 
