@@ -33,7 +33,10 @@ Client 3 envoyer "bonjour" au le client 1:
 MyTelnetClient (client4) envoyer merci au client 2:
 ![image](https://user-images.githubusercontent.com/94170257/226489489-76aec9d0-f621-4268-967e-12c9f6428c59.png)
 
-La communication en utilisant les interface graphique JavaFX:
+* La communication en utilisant les interfaces graphique JavaFX:
+
 ![image](https://user-images.githubusercontent.com/94170257/226489684-3991acd8-5a96-45aa-a559-ad6a25bb88d0.png)
 
+* La communication entre Client Python et Client dans Java vers un serveur
 
+![image](https://user-images.githubusercontent.com/94170257/226491632-940147fa-305e-4900-8540-436e38d5ebb7.png)
