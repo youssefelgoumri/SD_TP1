@@ -9,7 +9,7 @@
 
 ![image](https://user-images.githubusercontent.com/94170257/226488719-c668cf47-f866-49fa-b64c-fe8f079e3034.png)
 
-La connexion des clients telnet au serveur
+La connexion des clients telnet à un serveur de Multi Thread Blocking
 ![image](https://user-images.githubusercontent.com/94170257/226488725-6e6b068c-c59b-442f-b247-60462ec49e8a.png)
 
 Tester le server avec telnet
@@ -27,9 +27,6 @@ Client 1 envoyer "hello everyone" à tout le monde:
 Client 2 envoyer "hi" vers client 1 et 3:
 ![image](https://user-images.githubusercontent.com/94170257/226489046-c603ee12-651b-4340-9c2a-998a7a9fcfc9.png)
 
-Client 3 envoyer "bonjour" au le client 1:
-![image](https://user-images.githubusercontent.com/94170257/226489417-ea9bf7e6-1309-4ee0-96a1-ddd52e69f446.png)
-
 MyTelnetClient (client4) envoyer merci au client 2:
 ![image](https://user-images.githubusercontent.com/94170257/226489489-76aec9d0-f621-4268-967e-12c9f6428c59.png)
 
@@ -40,3 +37,7 @@ MyTelnetClient (client4) envoyer merci au client 2:
 * La communication entre Client Python et Client dans Java vers un serveur
 
 ![image](https://user-images.githubusercontent.com/94170257/226491632-940147fa-305e-4900-8540-436e38d5ebb7.png)
+
+* Serveur de Single Thread  utilisant des entrées sorties non bloquantes
+
+![image](https://user-images.githubusercontent.com/94170257/226765534-095a2d47-c482-4515-9e82-83e5aab0aae3.png)
